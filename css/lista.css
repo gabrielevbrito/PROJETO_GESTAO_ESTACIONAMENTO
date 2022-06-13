@@ -1,0 +1,423 @@
+.secao_form_lista{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 810px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundo_form{
+    width: 1300px;
+    height: 650px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:  0 0 1em rgba(0, 0, 0, 0.452);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form_lista{
+    /* background-color: aquamarine; */
+    width: 80%;
+}
+
+.titulo_form{
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
+    color: #FF0000;
+    font-size: 50px;
+}
+
+.alinhamento_colunas{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.alinhamento_forms{
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.coluna{
+    background-color: #ED4343;
+    width: 14%;
+    height: 50px;
+    margin-right: 1px;
+}
+
+.coluna_ponta_esquerda{
+    border-radius: 15px 0 0 15px;
+}
+
+.coluna_ponta_direita{
+    border-radius: 0 15px 15px 0;
+}
+
+.btn_marcar_saida{
+    border-radius: 0 15px 15px 0;
+}
+
+.titulo_coluna{
+    color: white;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+.input_form{
+    width: 14%;
+    height: 50px;
+    margin-right: 1px;
+}
+
+.inputs_form{
+    background-color: #EFEEE0;
+    width: 100%;
+    height: 50px;
+    border-color: transparent;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:300 ;
+    font-size: 14px;
+    color: black;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* .inputs_form:hover{
+    background-color: #dfded2;
+    box-shadow: 0 0 0.7em rgba(0, 0, 0, 0.336);
+    transition: 0.25s;
+} */
+
+.img_input{
+    background-image: url(../imgs/Botão_Marcar_Entrada.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.img_input:hover{
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.363);
+    transition: 0.3s;
+    transform: scale(1.04);
+}
+
+.img_input:active{
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.363);
+    transition: 0.15s;
+    transform: scale(1.00);
+}
+
+.inputs_form:focus{
+    outline: none;
+    background-color: #dfded2;
+    /* box-shadow: 0 0 0.7em rgba(0, 0, 0, 0.336); */
+    transition: 0.25s;
+}
+.input_form:focus{
+    outline: none;
+}
+
+/* formulario saida */
+
+#fundo_modal{
+    width: 100%;
+    height: 810px;
+    position: fixed;
+    display: none;
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.posicionamento_modal{
+    width: 100%;
+    height: 810px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_marcar_saida{
+    width: 840px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:  0 0 1em rgba(0, 0, 0, 0.452);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    left: 550px;
+    top: 240px;
+}
+
+.titulo_form_modal{
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
+    color: #FF0000;
+    font-size: 37px;
+}
+
+.form_cadastro_modal{
+    /* background-color: aquamarine; */
+    width: 80%;
+}
+
+#input_um{
+    margin-top: 7px;
+}
+
+.input_cadastro_modal{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    margin-bottom: 20px;
+    color: #FF0000;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.inputs_form_modal{
+    height: 100px;
+	padding: 10px;
+	border: none;
+	margin-bottom: 12px;
+	border-radius: 12px;
+    background-color: #EFEEE0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+.inputs_form_modal:focus{
+    outline: none;
+}
+
+.inputs_juntos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_junto{
+    width: 48%;
+    height: 45px;
+    display: flex;
+    margin-bottom: 50px;
+    color: #FF0000;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.posicionamento_btn_modal{
+    display: flex;
+    justify-content: flex-end;
+    /* margin-top: 45px; */
+}
+
+.btn_modal{
+    width: 21%;
+    height: 45px;
+	padding: 10px;
+	border: none;
+	/* margin-top: 23px; */
+	border-radius: 12px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn_modalSair_f{
+    width: 21%;
+    height: 45px;
+	padding: 10px;
+	border: none;
+	/* margin-top: 23px; */
+	border-radius: 12px;
+    background-color: transparent;
+    color: #007BFF;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+} 
+
+@media screen and (max-width: 1536px) {
+    .secao_form_lista{
+        height: 738px;
+    }
+
+    .fundo_form{
+        width: 1100px;
+        height: 620px;
+    }
+
+    .modal_marcar_saida{
+        width: 780px;
+        height: 380px;
+        left: 365px;
+        top: 225px;
+    }
+
+    .inputs_form{
+        height: 50px;;
+        font-size: 11px;
+    }
+
+    .input_cadastro_modal{
+        height: 40px;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .secao_form_lista{
+        height: 774px;
+    }
+
+    .fundo_form{
+        width: 1100px;
+        height: 620px;
+    }
+
+    #fundo_modal{
+        width: 100%;
+        height: 900px;
+        position: fixed;
+        display: none;
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    .modal_marcar_saida{
+        width: 840px;
+        height: 400px;
+        left: 300px;
+        top: 225px;
+    }
+
+    .inputs_form{
+        height: 50px;;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .secao_form_lista{
+        height: 642px;
+    }
+
+    .fundo_form{
+        width: 1000px;
+        height: 520px;
+    }
+
+    .titulo_form{
+        font-size: 45px;
+    }
+
+    .coluna{
+        height: 45px;
+    }
+
+    .inputs_form{
+        height: 45px;;
+        font-size: 10px;
+    }
+
+    #fundo_modal{
+        width: 100%;
+        height: 900px;
+        position: fixed;
+        display: none;
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    .modal_marcar_saida{
+        width: 620px;
+        height: 320px;
+        left: 370px;
+        top: 200px;
+    }
+
+    .titulo_form_modal{
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    
+    .input_cadastro_modal{
+        width: 100%;
+        height: 25px;
+        font-size: 10px;
+    }
+    
+    .inputs_form_modal{
+        height: 25px;
+        padding: 10px;
+        margin-bottom: 12px;
+    }
+
+    .input_junto{
+        margin-bottom: 20px;
+    }
+
+    .btn_modal{
+        width: 21%;
+        height: 45px;
+        font-size: 12px;
+    }
+    
+    .btn_modalSair_f{
+        width: 21%;
+        height: 45px;
+        font-size: 12px;
+    } 
+
+}
+
+@media screen and (max-width: 1280px) {
+    .secao_form_lista{
+        height: 594px;
+    }
+
+    .fundo_form{
+        width: 900px;
+        height: 500px;
+    }
+
+    .modal_marcar_saida{
+        width: 620px;
+        height: 320px;
+        left: 328px;
+        top: 180px;
+    }
+
+}

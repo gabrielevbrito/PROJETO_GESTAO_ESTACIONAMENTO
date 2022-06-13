@@ -1,0 +1,210 @@
+.secao_form_entrada{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 810px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundo_form{
+    width: 1300px;
+    height: 700px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:  0 0 1em rgba(0, 0, 0, 0.452);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_cadastro{
+    /* background-color: aquamarine; */
+    width: 80%;
+}
+
+.titulo_form{
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
+    color: #FF0000;
+    font-size: 50px;
+}
+
+#input_um{
+    margin-top: 7px;
+}
+
+.input_cadastro{
+    width: 100%;
+    height: 79px;
+    display: flex;
+    margin-bottom: 10px;
+    color: #FF0000;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.inputs_form{
+    height: 100px;
+	padding: 10px;
+	border: none;
+	margin-bottom: 12px;
+	border-radius: 12px;
+    background-color: #EFEEE0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+.inputs_form:focus{
+    outline: none;
+}
+
+.inputs_juntos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_junto{
+    width: 48%;
+    height: 79px;
+    display: flex;
+    margin-bottom: 25px;
+    color: #FF0000;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.posicionamento_btn{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 45px; */
+}
+
+.btn{
+    width: 25%;
+    height: 60px;
+	padding: 10px;
+	border: none;
+	/* margin-top: 23px; */
+	border-radius: 12px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1536px) {
+    .secao_form_entrada{
+        height: 738px;
+    }
+
+    .fundo_form{
+        width: 1100px;
+        height: 600px;
+    }
+
+    .titulo_form{
+        font-size: 50px;
+    }
+
+    .input_cadastro{
+        width: 100%;
+        height: 65px;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+
+    .inputs_form{
+        height: 100px;
+        padding: 10px;
+        margin-bottom: 11px;
+    }
+
+    .input_junto{
+        width: 48%;
+        height: 65px;
+        margin-bottom: 25px;
+        font-size: 13px;
+    }
+
+    .btn{
+        width: 23%;
+        height: 55px;
+        padding: 10px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .secao_form_entrada{
+        height: 774px;
+    }
+
+    .fundo_form{
+        width: 1100px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .secao_form_entrada{
+        height: 642px;
+    }
+
+    .fundo_form{
+        width: 1000px;
+        height: 525px;
+    }
+
+    .titulo_form{
+        font-size: 40px;
+        margin-bottom: 18px;
+    }
+
+    .input_cadastro{
+        width: 100%;
+        height: 50px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .inputs_form{
+        height: 100px;
+        padding: 10px;
+        margin-bottom: 12px;
+    }
+
+    .input_junto{
+        width: 48%;
+        height: 50px;
+        margin-bottom: 28px;
+        font-size: 12px;
+    }
+
+    .btn{
+        width: 21%;
+        height: 50px;
+        padding: 10px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .secao_form_entrada{
+        height: 594px;
+    }
+
+    .fundo_form{
+        width: 1000px;
+        height: 525px;
+    }
+}
